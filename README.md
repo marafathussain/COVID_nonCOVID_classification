@@ -5,7 +5,7 @@ Running this code needs [MONAI](https://github.com/Project-MONAI/MONAI) frmework
 All the CT volumes were resampled to a common voxel dimension of 1.6mm X 1.6mm X 3.2mm. The labels (1: COVID, 0: nonCOVID) were generated from the existance of opacity masks in the segmentation data. The lung area was also masked using the provided segmentation mask. 
 
 ## Accuracy
-The model classifies beween COVID and nonCOVID cases with ~95% accuracy.
+The model classifies beween COVID and nonCOVID cases with ~96% accuracy.
 
 ## Pre-trained model
 The pretrained model can be downloaded from this [link](https://drive.google.com/file/d/11HzTu79q05Pr9IJZQN9fIcZk4ErapweA/view?usp=sharing).
